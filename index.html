@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Skranji:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div id="container">
+        <div id="left">
+            <div id="leftLogo">
+                <img src="images/odin.png">
+                <h1>ODIN</h1>
+            </div>
+            <div id="leftCredit">
+                <p>Photo by Halie West on Unsplash</p>
+            </div>
+        </div>
+        <div id="right">
+            <div id="rightPara">
+                <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.</p>
+                <p>You <em>know</em> you want to.</p>
+            </div>
+            <div id="rightForm">
+                <h1>Let's do this!</h1>
+                <form action="example.com/path" method="post">
+                    <label for="fname">First name:</label>
+                    <input type="text" id="fname" name="fname">
+                    <label for="lname">Last name:</label>
+                    <input type="text" id="lname" name="lname">
+                    <label for="user_email">Email Address:</label>
+                    <input type="email">
+                </form>
+            </div>
+            <button id="createAccount">Create Account</button>
+            <p>Already have an account? <span>Log in</span></p>
+        </div>
+    </div>
+</body>
+</html>
