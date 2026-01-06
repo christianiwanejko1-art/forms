@@ -156,3 +156,43 @@ z-index: 1;
     border: none;
     cursor: pointer;
 }
+
+#rightForm {
+    width: 50%;
+    height: 100%;
+}
+
+form {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,1fr);
+    padding-left: 32px;
+}
+
+form .field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 16px;
+  padding-right: 32px;
+}
+
+#rightForm h1 {
+    padding: 16px;
+    font-size: 24px;
+}
+
+.field input {
+    color: darkslategray;
+    padding: 4px;
+    border: 2px solid lightgray;
+    border-radius: 4px;
+}
+
+.field label {
+    font-weight: 500;
+}
+
+.field #confirm, .field #password{
+    border: 2px solid red;
+}
